@@ -13,10 +13,10 @@ const Main = () => {
             <Router>
                 <Nav />
                 <Switch>
-                    <Route exact path="/cats" component={ Cats } />
-                    <Route exact path="/search" component={ Search } />
-                    <Route exact path="/dogs" component={ Dogs } />
-                    <Route exact path="/todo" component={ ToDo } />
+                    <Route exact path="/cats" component={Cats} />
+                    <Route exact path="/search" component={Search} />
+                    <Route exact path="/dogs" component={Dogs} />
+                    <Route exact path="/todo" component={ToDo} />
                 </Switch>
             </Router>
         </React.Fragment>

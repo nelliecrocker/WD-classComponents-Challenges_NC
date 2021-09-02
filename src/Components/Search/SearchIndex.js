@@ -31,7 +31,7 @@ class SearchIndex extends Component {
     return (
       <div>
         <Input placeholder='Search Here'
-          // onChange={handleChange}
+          onChange={(handleChange)}
         />
         {/* need onchange and onsubmit functions */}
 

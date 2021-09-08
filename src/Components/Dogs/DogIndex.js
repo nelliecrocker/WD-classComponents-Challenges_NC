@@ -6,6 +6,7 @@ class DogIndex extends Component {
         this.state = {
             image: ""
         }
+        this.showDog = this.showDog.bind(this)
     }
 
     componentDidMount() {
